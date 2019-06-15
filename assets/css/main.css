@@ -9655,6 +9655,26 @@ h3 {
     border-color: #dee2e6;
   }
 }
+h1 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
 .header__principal {
   height: 100px;
   width: 1230px;
@@ -9682,6 +9702,11 @@ h3 {
   position: absolute;
   top: 130px;
   left: 358px;
+}
+
+.section__right-text {
+  text-align: center;
+  margin-top: 150px;
 }
 
 .footer__end {
