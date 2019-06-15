@@ -1,19 +1,20 @@
-.section_left {
-  margin-left: 100px;
+
+
+.section__left {
   margin-right: 20px;
   border: solid 3px $black;
   height: 300px;
-  width: 300px;
   position: absolute;
   top: 130px;
+  left: 100px;
 }
 
-.section_right {
+.section__right {
   margin-right: 100px;
   border: solid 3px $black;
   height: 300px;
-  width: 910px;
+  width: 973px;
   position: absolute;
   top: 130px;
-  left: 422px;
+  left: 358px;
 }
