@@ -9685,6 +9685,11 @@ p {
   margin-bottom: 20px;
 }
 
+.header__principal-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .section__left {
   margin-right: 20px;
   border: solid 3px #000000;
@@ -9692,21 +9697,98 @@ p {
   position: absolute;
   top: 130px;
   left: 100px;
+  padding-top: 20px;
 }
 
 .section__right {
   margin-right: 100px;
   border: solid 3px #000000;
   height: 300px;
-  width: 973px;
+  width: 850px;
   position: absolute;
   top: 130px;
-  left: 358px;
+  left: 480px;
 }
 
 .section__right-text {
   text-align: center;
   margin-top: 150px;
+}
+
+.section__left-text {
+  margin-right: 20px;
+  border: solid 3px #000000;
+  height: 500px;
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  padding-top: 20px;
+}
+
+.section__right-two {
+  margin-right: 100px;
+  border: solid 3px #000000;
+  height: 120px;
+  width: 850px;
+  position: absolute;
+  top: 130px;
+  left: 480px;
+}
+
+.section__right-three {
+  margin-right: 100px;
+  border: solid 3px #000000;
+  height: 120px;
+  width: 850px;
+  position: absolute;
+  top: 260px;
+  left: 480px;
+}
+
+.section__right-four {
+  margin-right: 100px;
+  border: solid 3px #000000;
+  height: 120px;
+  width: 850px;
+  position: absolute;
+  top: 390px;
+  left: 480px;
+}
+
+.buttons {
+  position: relative;
+  top: 380px;
+  margin-right: 100px;
+  margin-top: 20px;
+  height: 100px;
+  width: 850px;
+}
+
+.buttons__one {
+  position: absolute;
+  border: solid 3px #000000;
+  height: 105px;
+  width: 370px;
+  left: 2px;
+  top: -5px;
+}
+
+.buttons__two {
+  position: absolute;
+  border: solid 3px #000000;
+  height: 105px;
+  width: 80px;
+  left: 388px;
+  top: -5px;
+}
+
+.buttons__three {
+  position: absolute;
+  border: solid 3px #000000;
+  height: 105px;
+  width: 370px;
+  left: 484px;
+  top: -5px;
 }
 
 .footer__end {
