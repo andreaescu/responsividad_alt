@@ -10018,12 +10018,40 @@ p {
     display: inline;
     padding-left: 100px;
   }
+
+  .nav__siderbar {
+    height: 100%;
+    width: 150px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
 }
 .nav__ops {
   border: solid #000000 3px;
   height: 4.5em;
   padding-top: 1em;
   text-align: center;
+}
+
+.navbar-nav {
+  display: block;
+  width: 160px;
+  text-align: center;
+}
+
+.nav__black {
+  background-color: #000000;
+  color: white;
+}
+
+.article {
+  position: relative;
+}
+
+.article__img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
