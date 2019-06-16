@@ -1,0 +1,35 @@
+.nav {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.nav__letter {
+  height: 100px;
+  width: 200px;
+  border: $border;
+  margin-right: 20px;
+}
+
+.nav__description {
+  height: 100px;
+  width: 500px;
+  border: $border;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav__options {
+  height: 100px;
+  width: 500px;
+  border: $border;
+  margin-left: 20px;
+  padding-top: 35px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 100px;
+  }

@@ -9695,6 +9695,12 @@ p {
   margin-top: 470px;
 }
 
+.nav__letter-L {
+  font-size: 50px;
+  padding-top: 15px;
+  text-align: center;
+}
+
 .header__principal {
   height: 100px;
   width: 1230px;
@@ -9889,6 +9895,12 @@ p {
   margin-bottom: 20px;
 }
 
+.hero_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .footer__end {
   position: relative;
   top: 300px;
@@ -9900,10 +9912,41 @@ p {
   width: 1232px;
 }
 
-.footer__ex3 {
+.nav {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav__letter {
   height: 100px;
-  width: 700px;
-  border: solid 3px #000000;
+  width: 200px;
+  border: solid #000000 3px;
+  margin-right: 20px;
+}
+
+.nav__description {
+  height: 100px;
+  width: 500px;
+  border: solid #000000 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav__options {
+  height: 100px;
+  width: 500px;
+  border: solid #000000 3px;
+  margin-left: 20px;
+  padding-top: 35px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
