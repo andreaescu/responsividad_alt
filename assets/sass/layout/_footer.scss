@@ -30,6 +30,8 @@
   border: $border;
   left: 170px;
   bottom: 100px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .footer-ex4__logo {
@@ -39,4 +41,10 @@
   border: $border;
   left: 960px;
   bottom: 200px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.footer__logo-img {
+  max-width: 40%
 }
