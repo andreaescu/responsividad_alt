@@ -8,3 +8,35 @@
   height: 100px;
   width: 1232px;
 }
+
+.footer-ex4 {
+  position: relative;
+  top: 100px;
+  height: 120px;
+}
+
+.footer-ex4__number {
+  height: 100px;
+  width: 150px;
+  border: $border;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.footer-ex4__icons {
+  position: relative;
+  height: 100px;
+  width: 770px;
+  border: $border;
+  left: 170px;
+  bottom: 100px;
+}
+
+.footer-ex4__logo {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  border: $border;
+  left: 960px;
+  bottom: 200px;
+}
