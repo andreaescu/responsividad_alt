@@ -9675,6 +9675,26 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+.section__right-text {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section__left-text {
+  margin-right: 20px;
+  border: solid 3px #000000;
+  height: 500px;
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  padding-top: 20px;
+}
+
+.col-right-text {
+  text-align: center;
+  margin-top: 470px;
+}
+
 .header__principal {
   height: 100px;
   width: 1230px;
@@ -9688,6 +9708,32 @@ p {
 .header__principal-text {
   text-align: center;
   margin-top: 30px;
+}
+
+.header__logo {
+  border: solid 3px #000000;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+.header__logo-img {
+  max-width: 60%;
+}
+
+.header__principal-ex3 {
+  height: 100px;
+  width: 1010px;
+  border: solid 3px #000000;
+  position: relative;
+  left: 320px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .section__left {
@@ -9708,21 +9754,6 @@ p {
   position: absolute;
   top: 130px;
   left: 480px;
-}
-
-.section__right-text {
-  text-align: center;
-  margin-top: 150px;
-}
-
-.section__left-text {
-  margin-right: 20px;
-  border: solid 3px #000000;
-  height: 500px;
-  position: absolute;
-  top: 130px;
-  left: 100px;
-  padding-top: 20px;
 }
 
 .section__right-two {
@@ -9791,6 +9822,73 @@ p {
   top: -5px;
 }
 
+.section__left-ex3 {
+  position: relative;
+  border: solid 3px #000000;
+  right: 43px;
+  height: 500px;
+}
+
+.section__center-ex3 {
+  position: relative;
+  border: solid 3px #000000;
+}
+
+.section__center {
+  position: relative;
+  border: solid 3px #000000;
+  height: 100px;
+  left: 190px;
+}
+
+.section__right-ex3 {
+  position: relative;
+  border: solid 3px #000000;
+  left: 235px;
+  bottom: 345px;
+  height: 500px;
+}
+
+.col-left {
+  position: absolute;
+  height: 525px;
+  width: 200px;
+  border: solid 3px #000000;
+  left: 100px;
+  top: 140px;
+  margin-bottom: 20px;
+}
+
+.col-center {
+  position: absolute;
+  height: 375px;
+  width: 790px;
+  border: solid 3px #000000;
+  left: 320px;
+  top: 140px;
+  padding: 30px;
+}
+
+.col-right {
+  position: absolute;
+  height: 525px;
+  width: 200px;
+  border: solid 3px #000000;
+  left: 1130px;
+  top: 140px;
+  margin-bottom: 20px;
+}
+
+.col-down {
+  position: absolute;
+  height: 130px;
+  width: 790px;
+  border: solid 3px #000000;
+  left: 320px;
+  top: 535px;
+  margin-bottom: 20px;
+}
+
 .footer__end {
   position: relative;
   top: 300px;
@@ -9800,6 +9898,12 @@ p {
   border: solid 3px #000000;
   height: 100px;
   width: 1232px;
+}
+
+.footer__ex3 {
+  height: 100px;
+  width: 700px;
+  border: solid 3px #000000;
 }
 
 /*# sourceMappingURL=main.css.map */

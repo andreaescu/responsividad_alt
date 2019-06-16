@@ -19,3 +19,23 @@ p {
   font-size: 14px;
   font-family: $open-sans;
 }
+
+.section__right-text {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section__left-text {
+  margin-right: 20px;
+  border: solid 3px $black;
+  height: 500px;
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  padding-top: 20px;
+}
+
+.col-right-text {
+  text-align: center;
+  margin-top: 470px;
+}
