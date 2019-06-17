@@ -9719,6 +9719,10 @@ p {
   display: inline;
 }
 
+.img__text {
+  font-size: 80px;
+}
+
 @media only screen and (min-width: 1200px) {
   .header__principal {
     height: 100px;
@@ -9771,6 +9775,10 @@ p {
     height: 300px;
   }
 }
+.img__ex7 {
+  width: 100%;
+}
+
 @media only screen and (min-width: 1200px) {
   .section__left {
     margin-right: 20px;
@@ -9982,6 +9990,13 @@ p {
     max-width: 40%;
   }
 }
+.footer__ex7 {
+  height: 6rem;
+  border: solid #000000 3px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
 @media only screen and (min-width: 1200px) {
   .nav {
     margin-top: 20px;
