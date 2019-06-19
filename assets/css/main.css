@@ -9655,6 +9655,12 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.background {
+  background-image: image(".../images/chapel-4245437_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
@@ -9777,6 +9783,14 @@ p {
 }
 .img__ex7 {
   width: 100%;
+}
+
+.hero {
+  background-image: url("../images/chapel-4245437_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 55rem;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -9939,6 +9953,37 @@ p {
   margin-top: 0.5em;
 }
 
+.line {
+  height: 5rem;
+  width: 1px;
+  background-color: #000000;
+}
+
+.description__line {
+  height: 100%;
+  width: 1px;
+  background-color: #000000;
+  display: inline-block;
+}
+
+.description__position {
+  position: relative;
+  top: 35rem;
+  text-align: right;
+}
+
+.decoration {
+  height: 8rem;
+  width: 44rem;
+  background-color: #000000;
+  display: inline-block;
+  position: absolute;
+  bottom: 2rem;
+  left: 0rem;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+}
+
 @media only screen and (min-width: 1200px) {
   .footer__end {
     position: relative;
@@ -10051,15 +10096,13 @@ p {
   text-align: center;
 }
 
-.navbar-nav {
-  display: block;
-  width: 160px;
-  text-align: center;
-}
-
 .nav__black {
   background-color: #000000;
   color: white;
+}
+
+.navbar-toggler {
+  color: #000000;
 }
 
 .article {

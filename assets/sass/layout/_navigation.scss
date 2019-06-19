@@ -50,13 +50,11 @@
   text-align: center;
 }
 
-.navbar-nav {
-  display: block;
-  width: 160px;
-  text-align: center;
-}
-
 .nav__black {
   background-color: $black;
   color: white;
+}
+
+.navbar-toggler {
+  color: $black;
 }

@@ -157,3 +157,34 @@
   width: 101%;
   margin-top:0.5em;
 }
+
+.line {
+  height: 5rem;
+  width: 1px;
+  background-color: $black;
+}
+
+.description__line {
+  height: 100%;
+  width: 1px;
+  background-color: $black;
+  display: inline-block;
+}
+
+.description__position {
+  position: relative;
+  top: 35rem;
+  text-align: right;
+}
+
+.decoration {
+  height: 8rem;
+  width: 44rem;
+  background-color: $black;
+  display: inline-block;
+  position: absolute;
+  bottom: 2rem;
+  left: 0rem;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+}
