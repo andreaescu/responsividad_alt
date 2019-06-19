@@ -9681,6 +9681,10 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: #FFFFFF;
+}
+
 .section__right-text {
   text-align: center;
   margin-top: 150px;
@@ -9785,7 +9789,7 @@ p {
   width: 100%;
 }
 
-.hero {
+.back__img {
   background-image: url("../images/chapel-4245437_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9956,20 +9960,21 @@ p {
 .line {
   height: 5rem;
   width: 1px;
-  background-color: #000000;
+  background-color: #FFFFFF;
 }
 
 .description__line {
   height: 100%;
   width: 1px;
-  background-color: #000000;
+  background-color: #FFFFFF;
   display: inline-block;
 }
 
 .description__position {
   position: relative;
-  top: 35rem;
+  top: 30rem;
   text-align: right;
+  color: #FFFFFF;
 }
 
 .decoration {
@@ -9982,6 +9987,7 @@ p {
   left: 0rem;
   border-top-left-radius: 75px;
   border-bottom-left-radius: 75px;
+  opacity: 0.3;
 }
 
 @media only screen and (min-width: 1200px) {

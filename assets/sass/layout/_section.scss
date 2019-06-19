@@ -161,20 +161,21 @@
 .line {
   height: 5rem;
   width: 1px;
-  background-color: $black;
+  background-color: $white;
 }
 
 .description__line {
   height: 100%;
   width: 1px;
-  background-color: $black;
+  background-color: $white;
   display: inline-block;
 }
 
 .description__position {
   position: relative;
-  top: 35rem;
+  top: 30rem;
   text-align: right;
+  color: $white;
 }
 
 .decoration {
@@ -187,4 +188,5 @@
   left: 0rem;
   border-top-left-radius: 75px;
   border-bottom-left-radius: 75px;
+  opacity: 0.3;
 }
